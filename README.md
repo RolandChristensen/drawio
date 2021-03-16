@@ -19,6 +19,15 @@ Running
 -------
 One way to run diagrams.net is to fork this project, [publish the master branch to GitHub pages](https://help.github.com/categories/github-pages-basics/) and the [pages sites](https://jgraph.github.io/drawio/src/main/webapp/index.html) will have the full editor functionality (sans the integrations).
 
+1. Enable Pages:
+  a. Click Settings for Repo.
+  b. Scroll down to GitHub Pages section.
+  c. Select Master branch in the Branches drop down.
+  d. Select "\Root" in the Folder drop down.
+  e. Click Save button.
+2. Navigate to https://{github_username|github_organization}.github.io/drawio/src/main/webapp/
+   Note: you may need to wait for it to build.
+
 Another way is to use [the recommended Docker project](https://github.com/jgraph/docker-drawio) or to download [draw.io Desktop](https://get.diagrams.net).
 
 The full packaged .war of the client and servlets is built when the project is tagged and available on the [releases page](https://github.com/jgraph/draw.io/releases).
